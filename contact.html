@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body style="background-color: rgb(177, 212, 253)">
+    <a href="./Jan3index.html">Home</a><br />
+    <a href="./about.html">About SL Cleaning</a><br />
+    <a href="./contact.html">Enter your contact information</a><br />
+    <h2>Pricing for our cleaning services</h2>
+    <form action="./thankyou.html">
+      <fieldset style="background-color: rgb(184, 179, 179)">
+        <legend><h2>Service Base Contract</h2></legend>
+        <form action="">
+          <fieldset style="background-color: rgb(191, 141, 141);">
+            <legend><h3>Personal Info</h3></legend>
+          <p>
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" placeholder="John" /><br />
+          </p>
+          <p>
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" placeholder="Doe" /><br />
+          </p>
+          </fieldset>
+        </form>
+               <h3>Contact Time</h3>
+        <p>
+          <input type="radio" id="yesno" name="worktime" value="AM" />
+          <label for="yesno">AM</label><br />
+        </p>
+        <p>
+          <input type="radio" id="yesno" name="worktime" value="PM" />
+          <label for="yesno">PM</label><br />
+        </p>
+        <h3>Select Service</h3>
+        <select name="" id="">
+          <option value="">Select</option>
+          <option value="outdoorwork">Outdoor</option>
+          <option value="indoorwork">Indoor</option>
+        </select>
+        <h3>Outdoor Cleaning</h3>
+        <input
+          type="checkbox"
+          id="presswash"
+          name="presswash"
+          value="preswash"
+        />
+        <label for="pressurwash">Pressure Washing</label><br />
+        <input type="checkbox" id="moss" name="moss" value="mossremoval" />
+        <label for="moss">Moss Removal</label><br />
+        <input
+          type="checkbox"
+          name="gutters"
+          id="gutters"
+          value="gutterclean"
+        />
+        <label for="gutters">Gutters</label><br />
+        <input
+          type="checkbox"
+          id="windows"
+          name="windows"
+          value="windowclean"
+        />
+        <label for="windows">Window Cleaning</label>
+        <h3>Indoor Cleaning</h3>
+        <input
+          type="checkbox"
+          id="genclean"
+          name="genclean"
+          value="gnrlclean"
+        />
+        <label for="genclean">General Clean</label><br />
+        <input
+          type="checkbox"
+          id="aftparty"
+          name="aftparty"
+          value="afterparty"
+        />
+        <label for="aftparty">After Party</label><br />
+        <input type="checkbox" id="moveout" name="moveout" value="movingout" />
+        <label for="moveout">Move Out</label><br />
+        <input
+          type="checkbox"
+          id="deepclean"
+          name="deepclean"
+          value="deepcleaning"
+        />
+        <label for="deepclean">Deep Clean</label><br /><br />
+        <button type="submit">submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
